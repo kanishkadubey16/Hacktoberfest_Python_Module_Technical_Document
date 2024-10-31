@@ -1,0 +1,10 @@
+#check profit or loss
+
+CP = int(input())
+SP = int(input())
+if CP < SP:
+    print(f"Profit" , SP-CP)
+elif CP > SP:
+    print("Loss" , CP-SP)   
+else:
+    print("No Profit No Loss")
