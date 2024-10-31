@@ -3,4 +3,4 @@ lp = int(input())
 if lp % 4==0 and lp % 100!=0 or lp % 400==0:
     print(lp,"is a leap year")
 else:
-    print(lp,"is not a leap year")
+    print(lp"is not a leap year")
